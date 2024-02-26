@@ -1,0 +1,39 @@
+body{
+	margin: 0;
+	overflow: hidden;
+}
+
+.settings{
+	position: fixed;
+	top: 5px;
+	right: 5px;
+	background-color: #d9e7ff;
+	border-radius: 8px;
+	border: 1px solid black;
+	padding: 10px;
+	opacity: 0.9;
+}
+
+#izoklinaValue{
+	width: 1.5rem;
+}
+
+button {
+	background-color: #c0d6fa;
+	border-radius: 5px;
+	padding: 5px;
+	border: 1px solid #3271d9;
+	margin: 3px;
+	margin-top: 7px;
+}
+.centered{
+	margin: auto;
+	text-align: center;
+}
+
+#xy_input{
+	width: 6rem;
+}
+#analFinp{
+	width: 9rem;
+}

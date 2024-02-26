@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>Iránymező</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+			<canvas id="canvas" class=""></canvas>
+
+		<div class="settings">
+			f: <input type="text" name="" value="x*x + y*y -10" id="f_input">
+			<br>
+			&nbsp;&nbsp; x₀, y₀: <input type="text" name="" value="0, 0" id="xy_input">
+			<br>
+			<input type="checkbox" id="izoklina" name="izoklina" checked />
+	    <label for="izoklina">izoklina</label>
+			<input type="text" name="" value="0" id="izoklinaValue">
+			<br>
+			<input type="checkbox" id="IC1" name="IC1" checked />
+	    <label for="IC1">egyszerű módszer</label>
+			<br>
+			<input type="checkbox" id="IC_RK4" name="IC_RK4" checked />
+	    <label for="IC_RK4">Runge-Kutta módszer</label>
+			<br>
+			<input type="checkbox" id="analFCheck" name="analFCheck" checked />
+	    <label for="analFCheck">analitikus megoldás</label>
+			<br>
+			&nbsp;&nbsp; y(x) = <input type="text" name="" value="" id="analFinp">
+			<br>
+			<div class="centered">
+			<button type="button" name="fillICs" id="fillICsBtn">Random pontok</button>
+			</div>
+		</div>
+
+
+	</body>
+	<script type="text/javascript" src="iranymezo.js"></script>
+</html>
